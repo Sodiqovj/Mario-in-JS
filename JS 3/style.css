@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.full{
+    width: 1400px;
+    height: 850px;
+    position: relative;
+    background-size: 1600px;
+    border: 1px solid black;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url('images/mario-background.webp');
+}
+.bonus{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.text{
+    font-size: 40px;
+}
+.player{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    background-size: 100px;
+    transition: 0.5s all ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/mario.png');
+}
+.wall{
+    left: 400px;
+    bottom: 0px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-size: 210px;
+    border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/mario-wall.png');
+}
